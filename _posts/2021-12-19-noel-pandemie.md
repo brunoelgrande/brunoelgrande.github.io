@@ -67,7 +67,9 @@ graphique suivant.
 Le but de l’analyse est de déterminer si :
 
 > Ho : la moyenne de 2020 est la même que celle 2021 
+>
 > Ha : les 2 moyennes diffèrent
+>
 > Alpha : 5%
 
 ![](/img/posts/Noel-pandemie/unnamed-chunk-6-1.png)<!-- -->
