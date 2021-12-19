@@ -267,5 +267,4 @@ boxplot_deces
 ## La suite
 
 Dans une 2e partie à venir, nous nous intéresserons à l’analyse
-statistique de ces données. Nous pourons évaluer la
-performance relative des différentes régions lors de cette 2e vague.
+statistique de ces données. 
