@@ -76,7 +76,6 @@ formats et contenus.
 contents(COVID)
 ```
 
-    ## 
     ## Data frame:COVID 1050 observations and 4 variables    Maximum # NAs:0
     ##
     ##        Levels Class Storage
@@ -95,7 +94,6 @@ contents(COVID)
 contents(TAUX)
 ```
 
-    ## 
     ## Data frame:TAUX  2100 observations and 4 variables    Maximum # NAs:0
     ## 
     ##        Levels Class Storage
@@ -267,4 +265,4 @@ boxplot_deces
 ## La suite
 
 Dans une 2e partie à venir, nous nous intéresserons à l’analyse
-statistique de ces données. 
+statistique de ces données, en particulier pour le Québec.
