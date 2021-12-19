@@ -175,7 +175,7 @@ La Santé Publique a déclaré 8.7 cas par jour en 2021 plutôt que 11 en 2020. 
 
 Par contre, nous avons pu voir avec le graphique des données dans le
 temps que la tendance actuelle au Québec accélére rapidement. Le nouveau
-variant Omicron a su donner un 2e (ou 3e ?) au virus.
+variant Omicron a su donner un 2e (ou 3e ?) souffle au virus.
 
 Espérons qu’il sera possible de renverser la tendance dans les
 prochaines semaines. Sinon, ma lecture matinale de La Presse risque
