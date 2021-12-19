@@ -5,5 +5,5 @@ Gemfile.lock
 *.gem
 .DS_Store
 .jekyll-cache
-.jekkyl-cache*
+.jekyll-cache*
 
