@@ -1,0 +1,12 @@
+# Note utile
+# 
+# Si problème synchro
+
+git push --force
+
+git pull
+
+git commit -a -m "Message du commit"
+
+# Pour partir le serveur local
+bundle exec jekyll serve
