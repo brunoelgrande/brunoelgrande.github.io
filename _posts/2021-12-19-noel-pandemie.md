@@ -4,7 +4,7 @@ title: "Noël en pandémie"
 subtitle: "Attachez vos tuques qu'ils disaient"
 date: 2021-12-19
 background: '/img/posts/Noel-pandemie/noel_covid_bg.jpeg'
-tags: R COVID Statistiques
+tags: [R, COVID, Statistiques]
 ---
 
 # La COVID s’invite à Noël

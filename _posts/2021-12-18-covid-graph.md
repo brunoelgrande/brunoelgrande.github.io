@@ -4,7 +4,7 @@ title: "COVID - 2e vague"
 subtitle: "Préparation des données et analyse graphique des cas et des décès au Canada"
 date: 2021-12-18
 background: '/img/posts/Covid-Stats/covid-statistique-bg.jpeg'
-tags: R COVID
+tags: [R, COVID]
 ---
 
 
