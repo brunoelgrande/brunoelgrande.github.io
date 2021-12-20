@@ -8,3 +8,8 @@ Gemfile.lock
 .jekyll-cache
 .jekyll-cache*
 
+assets/vendor/.DS_Store
+assets/vendor/.DS_Store
+assets/vendor/startbootstrap-clean-blog/.DS_Store
+assets/vendor/startbootstrap-clean-blog/scss/.DS_Store
+img/posts/Covid-Stats/.DS_Store
