@@ -14,7 +14,7 @@ Le réveil est brutal à la lecture de La Presse ce matin.
 <a href="https://www.lapresse.ca/covid-19/2021-12-19/variant-omicron/attachez-vos-tuques.php" rel="some text" target="_blank">![Foo](/img/posts/Noel-pandemie/lapresse_omicron.png)</a>
 
 On pourrait se croire en 2020 à pareil date l’an dernier. Mais est-ce
-que nous suivons la même tendance qu’en 2020 ?
+que nous suivons la même tendance ?
 
 ## Quelle vague déjà ?
 
@@ -29,7 +29,7 @@ Nous utilisons encore une fois les données de
 l’[INSPQ](https://www.inspq.qc.ca/covid-19/donnees/comparaisons), mais
 seulement pour le Québec.
 
-Le Code **R** créer pour cette publication est disponible sur mon
+Le Code **R** créé pour cette publication est disponible sur mon
 <a href="https://github.com/brunoelgrande/Portfolio" target="_blank">Github</a>.
 
 
@@ -41,7 +41,7 @@ Les dates utilisées pour bâtir le graphique sont les suivantes :
     ##   2020-09-01 2021-09-01
     ##   2021-03-20 2021-12-16
 
-Étant donné la période 2021 plus courte que celle 2020, nous avons ces
+Étant donné que la période 2021 est plus courte que celle 2020, nous avons ces
 données disponibles pour bâtir notre graphique :
     
     ## Cas.2020 Cas.2021 
@@ -54,15 +54,11 @@ comparer la tendance 2020 vs 2021.
 
 ![](/img/posts/Noel-pandemie/unnamed-chunk-5-1.png)<!-- -->
 
-Nous pouvons bien voir que l’automne était sous un meilleur contrôle,
+Nous pouvons bien voir que l’automne 2021 était sous un meilleur contrôle,
 mais que la courbe s’accélère dans les derniers jours, avec une pente
 plus élevée qu’à pareille date l’an dernier.
 
 # Analyse statistique
-
-Nous voulons effectuer une analyse statistique afin de comparer les 2
-années pour les période où les données sont disponibles, tel que le
-graphique suivant.
 
 Le but de l’analyse est de déterminer si :
 
@@ -71,6 +67,10 @@ Le but de l’analyse est de déterminer si :
 > Ha : les 2 moyennes diffèrent
 >
 > Alpha : 5%
+
+Nous pouvons effectuer une analyse statistique afin de comparer les 2
+années pour les période où les données sont disponibles, tel que le
+graphique suivant.
 
 ![](/img/posts/Noel-pandemie/unnamed-chunk-6-1.png)<!-- -->
 
@@ -105,7 +105,7 @@ headTail(COVID_stats)
     ## 8 2021-12-16  2020 21.15      212
     ## 9 2021-12-16  2021 23.71      214
 
-Suite à la transformation :
+Suite à la transformation, la distribution des cas quotidiens devient : :
 ![](/img/posts/Noel-pandemie/unnamed-chunk-10-1.png)<!-- -->
 
 Nous pouvons voir que la largeur de la boîte s’est uniformisée.
@@ -114,7 +114,7 @@ Nous pouvons voir que la largeur de la boîte s’est uniformisée.
 
 ## Réalisation de l’ANOVA à 1 facteur sur les cas transformés
 
-Avec les cas transformées par rang, nous pouvons réaliser la
+Avec les cas transformés par rang, nous pouvons réaliser la
 vérification des conditions de normalité des résidus et d’homogénéité de
 la variance.
 
@@ -138,7 +138,7 @@ Et celui de Levene, pour l’homogénéité de la variance.
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 La normalité des résidus et l’homogénéité de la variance ne sont
-toujours pas atteint (visible graphiquement et par les tests formels (Pr
+toujours pas atteints (visible graphiquement et par les tests formels (Pr
 &lt; 5%) ), mais nous pouvons utiliser des tests adaptés après cette
 transformation en rang.
 
@@ -174,7 +174,7 @@ statistiquement significative.
 La Santé Publique a déclaré 8.7 cas par jour en 2021 plutôt que 11 en 2020. Nous pouvons sûrement y voir l’effet de l’immunité de la population causée par la vaccination.
 
 Par contre, nous avons pu voir avec le graphique des données dans le
-temps que la tendance actuelle au Québec accélére rapidement. Le nouveau
+temps que la tendance actuelle au Québec s'accélère rapidement. Le nouveau
 variant Omicron a su donner un 2e (ou 3e ?) souffle au virus.
 
 Espérons qu’il sera possible de renverser la tendance dans les
