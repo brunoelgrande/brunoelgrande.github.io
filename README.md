@@ -41,7 +41,7 @@ git push   (--force si problème)
 
 ## Formulaires d'envoi courriel
 
-Formspree pour 50 courriels gratuits par moi.
+Formspree pour 50 courriels gratuits par mois.
 
 https://formspree.io/account
 
