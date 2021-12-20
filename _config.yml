@@ -3,7 +3,7 @@ email:              info@brunogauthier.net
 description:        si les chiffres pouvaient parler...
 author:             Bruno Gauthier
 baseurl:            ""
-url:                "https://brunoelgrande.github.io"
+url:                "https://blog.brunogauthier.net"  # "https://brunoelgrande.github.io"
 
 # Social Profiles
 twitter_username:   
