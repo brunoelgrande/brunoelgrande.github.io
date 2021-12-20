@@ -41,7 +41,7 @@ Les dates utilisées pour bâtir le graphique sont les suivantes :
     ##   2020-09-01 2021-09-01
     ##   2021-03-20 2021-12-16
 
-Étant donné que la période 2021 est plus courte que celle 2020, nous avons ces
+Étant donné que la période 2021 est plus courte que celle 2020, nous avons ce nombre de
 données disponibles pour bâtir notre graphique :
     
     ## Cas.2020 Cas.2021 
@@ -94,16 +94,17 @@ COVID_stats$Cas_Rang <- rank(COVID_stats$Cas)
 
 headTail(COVID_stats)
 ```
-    ##         Date Annee   Cas Cas_Rang
-    ## 1 2021-09-01  2020  1.35        2
-    ## 2 2021-09-01  2021  6.49       54
-    ## 3 2021-09-02  2020  1.33        1
-    ## 4 2021-09-02  2021  6.65       64
-    ## 5       <NA>  <NA>   ...      ...
-    ## 6 2021-12-15  2020 20.87      211
-    ## 7 2021-12-15  2021 22.16      213
-    ## 8 2021-12-16  2020 21.15      212
-    ## 9 2021-12-16  2021 23.71      214
+
+    ##         Date Annee     Cas Cas_Rang
+    ## 1 2021-09-01  2020  115.77        2
+    ## 2 2021-09-01  2021  556.57       54
+    ## 3 2021-09-02  2020  114.06        1
+    ## 4 2021-09-02  2021  570.29       64
+    ## 5       <NA>  <NA>     ...      ...
+    ## 6 2021-12-15  2020 1789.77      211
+    ## 7 2021-12-15  2021 1900.39      213
+    ## 8 2021-12-16  2020 1813.78      212
+    ## 9 2021-12-16  2021 2033.32      214
 
 Suite à la transformation, la distribution des cas quotidiens devient : :
 ![](/img/posts/Noel-pandemie/unnamed-chunk-10-1.png)<!-- -->
@@ -158,12 +159,12 @@ Nous constatons que P &lt; 0.001 et nous pouvons donc rejeter l'hypothèse nulle
 
 ## Calcul des moyennes de cas 2020 vs 2021
 
-Nous pouvons donc calculer les moyennes et leurs intervalles de
+Nous pouvons donc calculer les moyennes de cas quotidiens au Québec et leurs intervalles de
 confiance à 95%.
 
-    ##   Annee Cas.upper  Cas.mean Cas.lower
-    ##    2020 12.079800 11.065421 10.051041
-    ##    2021  9.480476  8.735514  7.990552
+    ##   Annee Cas.upper Cas.mean Cas.lower
+    ## 1  2020 1035.9369 948.9460  861.9551
+    ## 2  2021  813.0246 749.1384  685.2521
 
 # Conclusion
 
@@ -171,7 +172,7 @@ Nous avons pu confirmer que la différence de moyenne de cas déclarés de
 COVID au Québec entre l’automne 2020 et l’automne 2021 est
 statistiquement significative.
 
-La Santé Publique a déclaré 8.7 cas par jour en 2021 plutôt que 11 en 2020. Nous pouvons sûrement y voir l’effet de l’immunité de la population causée par la vaccination.
+La Santé Publique a déclaré 749 cas quotidiens en 2021 plutôt que 949 en 2020. Nous pouvons sûrement y voir l’effet de l’immunité de la population causée par la vaccination.
 
 Par contre, nous avons pu voir avec le graphique des données dans le
 temps que la tendance actuelle au Québec s'accélère rapidement. Le nouveau
