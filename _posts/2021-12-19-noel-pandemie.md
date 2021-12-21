@@ -73,7 +73,7 @@ données disponibles pour bâtir notre graphique :
     <td>107</td>
   </tr>
 </table>
-
+<br/>
 
 ## Distribution des cas québécois - 2020 vs 2021
 
@@ -209,7 +209,7 @@ confiance à 95%.
         <td>685</td>
     </tr>
 </table>
-
+<br />
 # Conclusion
 
 Nous avons pu confirmer que la différence de moyenne de cas déclarés de
