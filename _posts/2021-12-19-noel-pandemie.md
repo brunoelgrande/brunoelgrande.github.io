@@ -36,16 +36,44 @@ Le Code **R** créé pour cette publication est disponible sur mon
 ## Dates et données couvertes
 
 Les dates utilisées pour bâtir le graphique sont les suivantes :
-    
-    ##    Date.2020  Date.2021
-    ##   2020-09-01 2021-09-01
-    ##   2021-03-20 2021-12-16
+
+<table style="width:100%">
+  <tr>
+    <th>Année   </th>
+    <th>Début</th>
+    <th>Fin</th>
+  </tr>
+  <tr>
+    <td>2020   </td>
+    <td>2020-09-01 </td>
+    <td>2021-03-20</td>
+  </tr>
+  <tr>
+    <td>2021   </td>
+    <td>2021-09-01</td>
+    <td>2021-12-16</td>
+  </tr>
+</table>
+
 
 Étant donné que la période 2021 est plus courte que celle 2020, nous avons ce nombre de
 données disponibles pour bâtir notre graphique :
-    
-    ## Cas.2020 Cas.2021 
-    ##      201      107
+
+<table style="width:70%">
+  <tr>
+    <th>Anné   </th>
+    <th>Nombre de jours</th>
+  </tr>
+  <tr>
+    <td>2020   </td>
+    <td>201 </td>
+  </tr>
+  <tr>
+    <td>2021   </td>
+    <td>107</td>
+  </tr>
+</table>
+
 
 ## Distribution des cas québécois - 2020 vs 2021
 
@@ -62,11 +90,10 @@ plus élevée qu’à pareille date l’an dernier.
 
 Le but de l’analyse est de déterminer si :
 
-> Ho : la moyenne de 2020 est la même que celle 2021 
->
-> Ha : les 2 moyennes diffèrent
->
-> Alpha : 5%
+       Ho : la moyenne de 2020 est la même que celle 2021
+       Ha : les 2 moyennes diffèrent
+       Alpha : 5%
+
 
 Nous pouvons effectuer une analyse statistique afin de comparer les 2
 années pour les période où les données sont disponibles, tel que le
@@ -162,9 +189,26 @@ Nous constatons que P &lt; 0.001 et nous pouvons donc rejeter l'hypothèse nulle
 Nous pouvons donc calculer les moyennes de cas quotidiens au Québec et leurs intervalles de
 confiance à 95%.
 
-    ##   Annee Cas.upper Cas.mean Cas.lower
-    ## 1  2020 1035.9369 948.9460  861.9551
-    ## 2  2021  813.0246 749.1384  685.2521
+<table style="width:70%">
+    <tr>
+        <th>Année</th>
+        <th>Limite Sup</th>
+        <th>Moyenne</th>
+        <th>Limite inf</th>
+    </tr>
+    <tr>
+        <td>2020</td>
+        <td>1035</td>
+        <td>948</td>
+        <td>861</td>
+    </tr>
+    <tr>
+        <td>2021</td>
+        <td>813</td>
+        <td>749</td>
+        <td>685</td>
+    </tr>
+</table>
 
 # Conclusion
 
@@ -176,7 +220,7 @@ La Santé Publique a déclaré 749 cas quotidiens en 2021 plutôt que 949 en 202
 
 Par contre, nous avons pu voir avec le graphique des données dans le
 temps que la tendance actuelle au Québec s'accélère rapidement. Le nouveau
-variant Omicron a su donner un 2e (ou 3e ?) souffle au virus.
+variant Omicron a su donner uun 2<sup>e</sup> (ou 3<sup>e</sup> ?) souffle au virus.
 
 Espérons qu’il sera possible de renverser la tendance dans les
 prochaines semaines. Sinon, ma lecture matinale de La Presse risque
