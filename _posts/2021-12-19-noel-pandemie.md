@@ -29,7 +29,7 @@ Nous utilisons encore une fois les données de
 l’[INSPQ](https://www.inspq.qc.ca/covid-19/donnees/comparaisons), mais
 seulement pour le Québec.
 
-Le Code **R** créé pour cette publication est disponible sur mon
+Le Code `R` créé pour cette publication est disponible sur mon
 <a href="https://github.com/brunoelgrande/Portfolio" target="_blank">Github</a>.
 
 
