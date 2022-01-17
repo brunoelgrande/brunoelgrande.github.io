@@ -220,7 +220,7 @@ La Santé Publique a déclaré 749 cas quotidiens en 2021 plutôt que 949 en 202
 
 Par contre, nous avons pu voir avec le graphique des données dans le
 temps que la tendance actuelle au Québec s'accélère rapidement. Le nouveau
-variant Omicron a su donner uun 2<sup>e</sup> (ou 3<sup>e</sup> ?) souffle au virus.
+variant Omicron a su donner un 2<sup>e</sup> (ou 3<sup>e</sup> ?) souffle au virus.
 
 Espérons qu’il sera possible de renverser la tendance dans les
 prochaines semaines. Sinon, ma lecture matinale de La Presse risque
