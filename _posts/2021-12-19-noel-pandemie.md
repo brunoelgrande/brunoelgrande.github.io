@@ -3,7 +3,7 @@ layout: post
 title: "Noël en pandémie"
 subtitle: "Attachez vos tuques qu'ils disaient"
 date: 2021-12-19
-background: '/img/posts/Noel-pandemie/noel_covid_bg.jpeg'
+background: "/img/posts/Noel-pandemie/noel_covid_bg.jpeg"
 tags: [R, COVID, Statistiques]
 ---
 
@@ -32,7 +32,6 @@ seulement pour le Québec.
 Le Code `R` créé pour cette publication est disponible sur mon
 <a href="https://github.com/brunoelgrande/Portfolio" target="_blank">Github</a>.
 
-
 ## Dates et données couvertes
 
 Les dates utilisées pour bâtir le graphique sont les suivantes :
@@ -54,7 +53,6 @@ Les dates utilisées pour bâtir le graphique sont les suivantes :
     <td>2021-12-16</td>
   </tr>
 </table>
-
 
 Étant donné que la période 2021 est plus courte que celle 2020, nous avons ce nombre de
 données disponibles pour bâtir notre graphique :
@@ -94,7 +92,6 @@ Le but de l’analyse est de déterminer si :
        Ha : les 2 moyennes diffèrent
        Alpha : 5%
 
-
 Nous pouvons effectuer une analyse statistique afin de comparer les 2
 années pour les période où les données sont disponibles, tel que le
 graphique suivant.
@@ -114,9 +111,9 @@ Pour être en mesure de réaliser la comparaison entre les 2 périodes, il
 faut utiliser une approche non paramétrique appelée la transformation
 par rang.
 
-<a href="[Aligned Rank Transform ANOVA](https://www.real-statistics.com/two-way-anova/aligned-rank-transform-art-anova/" target="_blank">Aligned Rank Transform ANOVA</a>
+<a href="https://www.real-statistics.com/two-way-anova/aligned-rank-transform-art-anova/" target="_blank">Aligned Rank Transform ANOVA</a>
 
-``` r
+```r
 COVID_stats$Cas_Rang <- rank(COVID_stats$Cas)
 
 headTail(COVID_stats)
@@ -152,16 +149,16 @@ Nous pouvons aussi réaliser les tests formels d’Anderson-Darling, pour
 la normalité des résidus.
 
     ##  Anderson-Darling normality test
-    ## 
+    ##
     ## data:  residuals(ANOVA_rang)
     ## A = 1.0138, p-value = 0.01116
 
 Et celui de Levene, pour l’homogénéité de la variance.
 
     ## Levene's Test for Homogeneity of Variance (center = median)
-    ##        Df F value   Pr(>F)   
+    ##        Df F value   Pr(>F)
     ## group   1  6.8225 0.009646 **
-    ##       212                    
+    ##       212
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
@@ -170,14 +167,14 @@ toujours pas atteints (visible graphiquement et par les tests formels (Pr
 &lt; 5%) ), mais nous pouvons utiliser des tests adaptés après cette
 transformation en rang.
 
-Le test ***Oneway*** est une ANOVA non-paramétrique adaptée pour des
+Le test **_Oneway_** est une ANOVA non-paramétrique adaptée pour des
 variances inégales.
 
 La normalité des résidus n’est plus nécessaire après la transformation
 en rang pour réaliser cette analyse.
 
     ##  One-way analysis of means (not assuming equal variances)
-    ## 
+    ##
     ## data:  Cas_Rang and Annee
     ## F = 16.416, denom df = 196.08, p-value = 7.326e-05
 
