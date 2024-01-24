@@ -45,7 +45,9 @@ https://formspree.io/account
 
 ## Tutorial Vidéo
 
-[Tuto - DataSlice ](https://www.youtube.com/watch?v=wCOInE7-E0I)
+* [Tuto - DataSlice ](https://www.youtube.com/watch?v=wCOInE7-E0I)
+
+* [Partie spécifique R](https://youtu.be/Td_NjdrwPkQ?si=dc8qmKnbIjpVec4v&t=397)
 
 ## Bugs and Issues
 
